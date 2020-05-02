@@ -1,0 +1,55 @@
+#main-header {
+  text-align: center;
+  padding: 1rem;
+  background: #768bff;
+  color: #333;
+  height: 50px;
+  margin-bottom: 30px; }
+
+body {
+  background: #add8e6;
+  color: set-text-colour(#add8e6);
+  height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5; }
+
+.objects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr); }
+
+.btn, .btn-purple, .btn-blue, .btn-green {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  text-align: center; }
+  .btn:hover, .btn-purple:hover, .btn-blue:hover, .btn-green:hover {
+    background: purple; }
+
+.btn-purple {
+  padding: 3rem;
+  background: #815dbc; }
+
+.btn-blue {
+  background: #768bff; }
+
+.btn-green {
+  background: #40c99a; }
+
+@media screen and (min-width: 1171px) {
+  .objects {
+    grid-template-columns: repeat(4, 1fr); } }
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .objects {
+    grid-template-columns: repeat(3, 1fr); } }
+
+@media screen and (max-width: 768px) {
+  .objects {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (max-width: 500px) {
+  .objects {
+    grid-template-columns: 1fr; } }

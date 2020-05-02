@@ -1,0 +1,55 @@
+@import "config";
+
+#main-header {
+  text-align: center;
+  padding: 1rem;
+  background: #768bff;
+  color: #333;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+body {
+  background: $primary-colour;
+  color: set-text-colour($primary-colour);
+  height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+//objects
+.objects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+//button
+.btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  text-align: center;
+  &:hover {
+    background: purple; // change later??
+  }
+}
+
+.btn-purple {
+  @extend .btn;
+  padding: 3rem;
+  background: #815dbc;
+}
+
+.btn-blue {
+  @extend .btn;
+  background: #768bff;
+}
+
+.btn-green {
+  @extend .btn;
+  background: #40c99a;
+}
+
+@import "mobile";
