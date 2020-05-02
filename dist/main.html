@@ -19,10 +19,12 @@
     </header>
 
     <main>
+      <h2>Insert text file</h2>
       <div class="box-input">
-        <p>
-          Insert text file here
-        </p>
+        <form method="post" enctype="multipart/form-data">
+          <input type="file" name="files[]" multiple />
+          <input type="submit" value="Upload File" name="submit" />
+        </form>
       </div>
       <div class="box-output">
         <p>
@@ -39,5 +41,6 @@
         Copyright &copy; 2020
       </span>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
