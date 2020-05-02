@@ -39,10 +39,13 @@ body {
   background: #40c99a; }
 
 #main-footer {
-  padding: 1rem;
+  padding: 2rem;
   background: #768bff;
   color: #333;
-  height: 50px; }
+  height: 50px;
+  bottom:0px;
+  position: absolute;
+ padding-left:75rem;}
 
 @media screen and (min-width: 1171px) {
   .objects {
