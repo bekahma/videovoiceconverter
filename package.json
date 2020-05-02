@@ -1,0 +1,22 @@
+{
+  "name": "videovoiceconverter",
+  "version": "1.0.0",
+  "description": "video voice converter",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoeyz101/videovoiceconverter.git"
+  },
+  "author": "Zoey Zhang, Rebecca Ma, Manchind Arora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoeyz101/videovoiceconverter/issues"
+  },
+  "homepage": "https://github.com/zoeyz101/videovoiceconverter#readme",
+  "dependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
