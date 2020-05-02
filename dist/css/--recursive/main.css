@@ -38,6 +38,12 @@ body {
 .btn-green {
   background: #40c99a; }
 
+#main-footer {
+  padding: 1rem;
+  background: #768bff;
+  color: #333;
+  height: 50px; }
+
 @media screen and (min-width: 1171px) {
   .objects {
     grid-template-columns: repeat(4, 1fr); } }
