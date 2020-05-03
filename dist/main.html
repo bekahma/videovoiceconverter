@@ -42,5 +42,29 @@
       </span>
     </footer>
     <script src="js/main.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAdq3p-VxPWK7m997lMzoCmn-7KF5HajQw",
+        authDomain: "vvconverter-tohacks.firebaseapp.com",
+        databaseURL: "https://vvconverter-tohacks.firebaseio.com",
+        projectId: "vvconverter-tohacks",
+        storageBucket: "vvconverter-tohacks.appspot.com",
+        messagingSenderId: "29568268950",
+        appId: "1:29568268950:web:79694b6576b1b61efaa0b7",
+        measurementId: "G-KYPX171JNP",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>
