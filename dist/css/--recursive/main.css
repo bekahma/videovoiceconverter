@@ -65,8 +65,7 @@ body {
   color: #333;
   height: 50px;
   bottom: 0px;
-  position: absolute;
-  max-width: 100%; }
+  position: absolute; }
 
 @media screen and (min-width: 1171px) {
   .objects {
