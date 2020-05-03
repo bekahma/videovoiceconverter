@@ -1,4 +1,4 @@
-const url = "process.php";
+const url = "/speechrecognition/main.py";
 const form = document.querySelector("form");
 
 form.addEventListener("submit", (e) => {
