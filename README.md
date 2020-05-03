@@ -1,4 +1,4 @@
-# videovoiceconverter
+# V2T
 
 ## Inspiration
 Many schools and universities are currently transitioning towards online classes and online learning, but students may not have the resources to watch easily watch all lectures in a day.
