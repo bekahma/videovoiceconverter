@@ -19,58 +19,52 @@
     </header>
 
     <main>
-      <div class="objects">
-        <div class="item">
-          <a class="btn-purple"> <i class="fas fa-eye fa-3x"></i> </a>
-          <a class="btn-blue">
-            <i class="fas fa-download"></i>
-          </a>
-          <a class="btn-green">
-            <i class="fas fa-play"></i>
-          </a>
-        </div>
-        <div class="item">
-          <a class="btn-purple"> <i class="fas fa-eye fa-3x"></i> </a>
-          <a class="btn-blue">
-            <i class="fas fa-download"></i>
-          </a>
-          <a class="btn-green">
-            <i class="fas fa-play"></i>
-          </a>
-        </div>
-        <div class="item">
-          <a class="btn-purple">
-            <i class="fas fa-eye fa-3x"></i>
-          </a>
-          <a class="btn-blue">
-            <i class="fas fa-download"></i>
-          </a>
-          <a class="btn-green">
-            <i class="fas fa-play"></i>
-          </a>
-        </div>
-        <div class="item">
-          <a class="btn-purple">
-            <i class="fas fa-eye fa-3x"></i>
-          </a>
-          <a class="btn-blue">
-            <i class="fas fa-download"></i>
-          </a>
-          <a class="btn-green">
-            <i class="fas fa-play"></i>
-          </a>
-        </div>
+      <h2>Insert text file</h2>
+      <div class="box-input">
+        <form method="post" enctype="multipart/form-data">
+          <input type="file" name="files[]" multiple />
+          <input type="submit" value="Upload File" name="submit" />
+        </form>
       </div>
-      <footer id="main-footer">
-        <span style="float: left;" ;shref="#">
-          <i class="fab fa-github fa-2x"></i>
-        </span>
-        <span style="float: right;">
-          Copyright &copy; 2020
-        </span>
-      </footer>
+      <div class="box-output">
+        <p>
+          Output text
+        </p>
+      </div>
     </main>
 
-  
+    <footer id="main-footer">
+      <span style="float: left;" ;shref="#">
+        <i class="fab fa-github fa-2x"></i>
+      </span>
+      <span style="float: right;">
+        Copyright &copy; 2020
+      </span>
+    </footer>
+    <script src="js/main.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAdq3p-VxPWK7m997lMzoCmn-7KF5HajQw",
+        authDomain: "vvconverter-tohacks.firebaseapp.com",
+        databaseURL: "https://vvconverter-tohacks.firebaseio.com",
+        projectId: "vvconverter-tohacks",
+        storageBucket: "vvconverter-tohacks.appspot.com",
+        messagingSenderId: "29568268950",
+        appId: "1:29568268950:web:79694b6576b1b61efaa0b7",
+        measurementId: "G-KYPX171JNP",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>

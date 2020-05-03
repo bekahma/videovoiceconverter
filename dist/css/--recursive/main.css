@@ -14,6 +14,27 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
 
+.box-input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+  background: #815dbc;
+  padding: 4rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem; }
+
+.box-output {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  text-align: center;
+  background: #40c99a; }
+  .box-output:hover {
+    background: purple; }
+
 .objects {
   display: flex;
   justify-content: space-around;
@@ -45,9 +66,8 @@ body {
   background: #768bff;
   color: #333;
   height: 50px;
-  bottom:0px;
-  position: absolute;
- padding-left:75rem;}
+  bottom: 0px;
+  position: absolute; }
 
 @media screen and (min-width: 1171px) {
   .objects {
