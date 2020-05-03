@@ -3,20 +3,23 @@
   "version": "1.0.0",
   "description": "video voice converter",
   "main": "index.js",
+  "homepage": "https://r69ma.github.io/videovoiceconverter",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/--recursive"
+    "sass": "node-sass -w scss/ -o dist/css/--recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zoeyz101/videovoiceconverter.git"
+    "url": "git+https://github.com/r69ma/videovoiceconverter.git"
   },
   "author": "Zoey Zhang, Rebecca Ma, Manchind Arora",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zoeyz101/videovoiceconverter/issues"
+    "url": "https://github.com/r69ma/videovoiceconverter/issues"
   },
-  "homepage": "https://github.com/zoeyz101/videovoiceconverter#readme",
+  "homepage": "https://github.com/r69ma/videovoiceconverter#readme",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.14.0"
   }
 }
